@@ -16,3 +16,18 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome";
+
+     .caption {
+   margin: 30px;
+   text-align: center;
+   top: 20px;
+ }
+
+ .thumbnail {
+     border: 0 none !important;
+     box-shadow: none;
+     margin-top: 60px;
+ }
+ .navbar-margin{
+   margin-top: 80px !important;
+ }

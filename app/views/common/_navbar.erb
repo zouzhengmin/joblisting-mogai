@@ -1,5 +1,6 @@
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container-fluid">
+
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid ">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -12,11 +13,8 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav">
-            <li><a href="#Our Company"> Our Company</a></li>
-            <li><a href="/jobs"> Jobs</a></li>
-          </ul>
             <ul class="nav navbar-nav navbar-right">
+              <li><a href="/jobs"> Jobs</a></li>
               <% if !current_user %>
                 <li><%= link_to("注册", new_user_registration_path) %> </li>
                 <li><%= link_to("登入", new_user_session_path) %></li>
@@ -35,7 +33,7 @@
                 </li>
               <% end %>
             </ul>
-          
+
         </div>
         <!-- /.navbar-collapse -->
     </div>
